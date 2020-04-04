@@ -1,0 +1,21 @@
+label {font-weight: bold}
+header h1 {
+    width: 360px;
+    margin-left: 30px;
+    font-size: 2.5em;
+}
+
+h1 {
+font-family: rig-solid-bold-halftone, sans-serif;
+font-weight: 900;
+font-style: normal;
+    text-align: center;
+color: blueviolet;
+}
+
+p {
+    font-size: 1.1em;
+    color: #2a2a2a;
+    font-family: 'Crimson Pro', serif;
+    background-color: lavenderblush;
+    width: 750px;

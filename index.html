@@ -1,0 +1,76 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>Project 5 forms</title>  
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrety="sha384-Vkoo8x4CGs03+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6bBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css"> 
+    </head>
+
+<body> 
+  <h1>Project 6- Forms with a destination </h1>  
+    <p>
+    I set up this form to collect names, email addresses and phone numbers. I have a drop down list to decide how urgent the project is, radio buttons to declare your organization, and a text block to describe your project. 
+    </p>
+   
+  <form action="">
+    <div> 
+        <label for="name">Name: </label> <input type= "text" name="Name" id="name"> 
+      </div>
+      
+    <div>
+       <label for="email">  Email Address: </label> <input type="email" name="Email" id=email> 
+      </div>
+      
+    <div> 
+    <label for="phone">Phone Number: </label>
+        
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> 
+      </div>
+      
+    <div>
+    <p> Please select the urgency of your project!</p>
+        <select name="urgency" > 
+      <option value="Now">Urgent</option>
+      <option value="asap">Important</option>
+      <option value="normal" selected>Needs done</option>
+      <option value="low">Just Thinking</option>
+        </select>
+    </div>
+      
+ <div>
+    <p>Please select the type of business or organization your project is in accordance with. </p>
+     
+     <input type="radio" id="business" name="organization" value="business">
+     <label for="business">Business</label><br>
+     <input type="radio" id="personal" name="organization" value="personal">
+     <label for="personal">Peronal</label><br>
+     <input type="radio" id="nonprofit" name="organization" value="nonprofit"> 
+     <label for="nonprofit">NonProfit</label>
+     <br>
+     <input type="radio" id="other" name="organization" value="other"> 
+     <label for="non-profit">Other</label><br>
+    </div>     
+      
+      
+      
+      
+<div>
+  <textarea name="description" rows="10" cols="80" >
+    Please enter the description of your project or idea.  
+</textarea>
+</div>
+ <form
+  action="https://formspree.io/mnqbnwjn"
+  method="POST">
+
+  <button type="submit">Send</button>
+</form>     
+      
+    </form>  
+
+    
+    </body>
+</html>
